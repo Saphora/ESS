@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/MainLinearLayout">
+    <GridLayout
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/MainGrid"
+        p1:layout_marginBottom="5px"
+        p1:columnCount="3"
+        p1:rowCount="1"
+        p1:alignmentMode="alignMargins"
+        p1:orientation="horizontal"
+        p1:rowOrderPreserved="true"
+        p1:useDefaultMargins="true">
+        <Button
+            p1:id="@+id/PrevWeekBtn"
+            p1:layout_gravity="left|top"
+            p1:text="Vorige" />
+        <TextView
+            p1:text="Week {0}"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_gravity="right|top"
+            p1:id="@+id/WeekLabel"
+            p1:layout_width="wrap_content"
+            p1:layout_marginLeft="120px"
+            p1:layout_marginTop="30px" />
+        <Button
+            p1:id="@+id/NextWeekBtn"
+            p1:layout_gravity="right|top"
+            p1:text="Volgende" />
+    </GridLayout>
     <ListView
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/WeekList" />
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/WeekView" />
 </LinearLayout>

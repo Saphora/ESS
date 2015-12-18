@@ -26,20 +26,17 @@ namespace ESS
 
             // Get our button from the layout resource,
             // and attach an event to it
-            //Button button = FindViewById<Button> (Resource.Id.button1);
-            //button.Click += delegate {
-            //	button.Text = string.Format ("{0} clicks!", count++);
-            //};
+            
         }
-
+        //bel even..
         protected override void OnStart()
         {
             try {
                 var r = p.GetWeeks();
-                ListView WeekView = FindViewById<ListView>(Resource.Id.WeekList);
-                List<string> Weeks = (from w in r.Keys select string.Format("Week {0}", w)).ToList();
-                ArrayAdapter<string> WeekAdapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, Weeks);
-                WeekView.SetAdapter(WeekAdapter);
+                //ListView WeekView = FindViewById<ListView>(Resource.Id.WeekList);
+                //List<string> Weeks = (from w in r.Keys select string.Format("Week {0}", w)).ToList();
+                //ArrayAdapter<string> WeekAdapter = new ArrayAdapter<string>(this, Resource.Layout.ListItemLayout, Weeks);
+                //WeekView.Adapter = WeekAdapter;
                 base.OnStart();
             } catch(Exception ex)
             {

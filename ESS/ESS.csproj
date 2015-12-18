@@ -77,7 +77,7 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
-    <AndroidResource Include="Resources\layout\ListItemLayout.axml">
+    <AndroidResource Include="Resources\layout\DayView.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

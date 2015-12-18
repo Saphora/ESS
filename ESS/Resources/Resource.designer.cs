@@ -814,8 +814,26 @@ namespace ESS
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a003e
-			public const int WeekList = 2131361854;
+			// aapt resource value: 0x7f0a003c
+			public const int DayGrid = 2131361852;
+			
+			// aapt resource value: 0x7f0a0041
+			public const int MainGrid = 2131361857;
+			
+			// aapt resource value: 0x7f0a0040
+			public const int MainLinearLayout = 2131361856;
+			
+			// aapt resource value: 0x7f0a0044
+			public const int NextWeekBtn = 2131361860;
+			
+			// aapt resource value: 0x7f0a0042
+			public const int PrevWeekBtn = 2131361858;
+			
+			// aapt resource value: 0x7f0a0043
+			public const int WeekLabel = 2131361859;
+			
+			// aapt resource value: 0x7f0a0045
+			public const int WeekView = 2131361861;
 			
 			// aapt resource value: 0x7f0a001c
 			public const int action_bar = 2131361820;
@@ -865,6 +883,9 @@ namespace ESS
 			// aapt resource value: 0x7f0a0010
 			public const int collapseActionView = 2131361808;
 			
+			// aapt resource value: 0x7f0a003d
+			public const int dayLabel = 2131361853;
+			
 			// aapt resource value: 0x7f0a0028
 			public const int default_activity_button = 2131361832;
 			
@@ -888,9 +909,6 @@ namespace ESS
 			
 			// aapt resource value: 0x7f0a002c
 			public const int expanded_menu = 2131361836;
-			
-			// aapt resource value: 0x7f0a003d
-			public const int firstLine = 2131361853;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int home = 2131361792;
@@ -964,8 +982,8 @@ namespace ESS
 			// aapt resource value: 0x7f0a003b
 			public const int search_voice_btn = 2131361851;
 			
-			// aapt resource value: 0x7f0a003c
-			public const int secondLine = 2131361852;
+			// aapt resource value: 0x7f0a003f
+			public const int separator = 2131361855;
 			
 			// aapt resource value: 0x7f0a002e
 			public const int shortcut = 2131361838;
@@ -981,6 +999,9 @@ namespace ESS
 			
 			// aapt resource value: 0x7f0a001e
 			public const int split_action_bar = 2131361822;
+			
+			// aapt resource value: 0x7f0a003e
+			public const int start = 2131361854;
 			
 			// aapt resource value: 0x7f0a0039
 			public const int submit_area = 2131361849;
@@ -1105,7 +1126,7 @@ namespace ESS
 			public const int abc_simple_decor = 2130968599;
 			
 			// aapt resource value: 0x7f040018
-			public const int ListItemLayout = 2130968600;
+			public const int DayView = 2130968600;
 			
 			// aapt resource value: 0x7f040019
 			public const int Main = 2130968601;
